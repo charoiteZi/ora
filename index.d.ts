@@ -196,24 +196,24 @@ export interface Ora {
 	/**
 	Get the spinner.
 	*/
-	get spinner(): Spinner;
+	spinner(): Spinner;
 
 	/**
 	Set the spinner.
 	*/
-	set spinner(spinner: SpinnerName | Spinner);
+	spinner(spinner: SpinnerName | Spinner);
 
 	/**
 	A boolean of whether the instance is currently spinning.
 	*/
-	get isSpinning(): boolean;
+	isSpinning(): boolean;
 
 	/**
 	The interval between each frame.
 
 	The interval is decided by the chosen spinner.
 	*/
-	get interval(): number;
+	interval(): number;
 
 	/**
 	Start the spinner.
